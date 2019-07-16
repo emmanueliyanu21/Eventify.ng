@@ -1,0 +1,332 @@
+@media only screen and (max-width: 767px) {
+
+
+    .shapes-bg {
+        display: none;
+    }
+    .navbar-toggler {
+        color: #171f3c;
+        font-size: 35px;
+        line-height: 38px;
+        padding: 5px 0;
+        margin-right: 15px;
+    }
+    .navbar-nav {
+        background-color: #fff;
+    }
+    .navbar-toggler-icon {
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+    .navbar-brand {
+        margin: 15px;
+    }
+    .hero {
+        padding-bottom: 80px;
+        height: 100%;
+    }
+    .video-mockup {
+        width: 70%;
+    }
+    .hero-text h2 {
+        font-size: 45px;
+    }
+    .icon-block {
+        margin-bottom: 25px;
+    }
+    .col-left,
+    .col-right,
+    .btn-outer .dropdown-menu {
+        width: 100%;
+    }
+    .col-left-inner,
+    .col-right-inner,
+    .client-caroussel{
+      padding-left: 15px;
+    padding-right: 15px; 
+    }
+ 
+    .col-right-inner {
+        right: 0;
+    }
+    .navbar-header .navbar-nav li a {
+        color: #fff;
+        color: #171f3c;
+        font-size: 15px;
+        padding: 10px 12px !important;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    
+    .btn-outer {
+        padding: 5px 18px;
+    }
+    .search-box-btn {
+        color: #171f3c;
+    }
+    .navbar-header .navbar.sticky {
+        padding: 10px 0;
+    }
+    .ply-btn {
+        top: 15%;
+        left: 25%;
+    }
+    .features-text h2,
+    .number-text,
+    .testimonial-caroussel {
+        margin-top: 25px;
+    }
+    .list-p,
+    .team-bloc,
+    .blog-inner,
+    .sidebar-tags {
+        margin-bottom: 25px;
+    }
+    .col-left-inner {
+        padding-right: 0;
+    }
+    .projetc-inner,
+    #testimonial {
+        padding: 15px;
+    }
+    .left-sidebar.sidebar-side {
+        padding-right: 0;
+    }
+    .search {
+        width: 100%;
+    }
+    .title-h2 {
+        font-size: 35px;
+    }
+    .medium-blog .blog-summary {
+        overflow: visible;
+        margin-top: 10px;
+        padding-top: 20px;
+        clear: both;
+    }
+    .subscribe-form .form-control {
+        width: 90%;
+    }
+    .medium-blog .blog-item-img {
+        width: 100%;
+    }
+    .footer-top h5 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .sidebar-side {
+        padding-left: 0;
+        margin-top: 50px;
+        padding-right: 0;
+    }
+    
+    .portflio-section-title .title-h2 {
+        font-size: 18px;
+       line-height: 28px;
+    }
+    .row-centered {
+        width: auto;
+    }
+    .project_product-one-columns {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #projets h3 {
+        padding-top: 25px;
+
+    }
+    .comments-reply {
+        margin-bottom: 40px;
+    }
+    .sidebar-post-inner img {
+        width: 95px;
+    }
+    .blog-item{
+     margin: 0 0 30px 0;
+    padding: 0 0 30px 0;   
+    }
+    .padd-title {
+    padding-top: 150px;
+    padding-bottom: 0;
+}
+    
+    .portfolio-caroussel .owl-controls{
+     top: 40%;  
+    }
+     .form-comment .form-control{
+        margin-bottom: 15px;
+    }
+   
+    .bg-portflio-section.padd-title, .bg-blog-section.padd-title{
+        padding-bottom: 100px;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar-collapse .navbar-nav {
+       background-color: #fff;
+    }
+    .navbar-header .navbar-nav li a{
+     color: #171f3c;
+    font-size: 15px;
+    padding: 10px 12px !important;
+    font-weight: 500;
+    line-height: 30px;
+    }
+    .search-box-btn{
+     color: #171f3c;   
+    }
+
+    .navbar-toggler {
+        padding: 25px 0;
+    }
+    .navbar-brand {
+        padding: 15px;
+    }
+    .navbar-header .navbar.sticky .navbar-brand {
+        padding: 0 15px;
+    }
+    .navbar-header .navbar.sticky .navbar-toggler {
+        padding: 15px 0;
+    }
+    .sidebar-side {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .sidebar-post-inner img {
+        width: 55px;
+    }
+    .tags-inner a {
+        padding: 8px 10px;
+    }
+    .shapes-bg {
+        display: none;
+    }
+    .hero {
+        padding-bottom: 80px;
+        height: 100%;
+    }
+    .btn-outer .dropdown-menu {
+        width: 100%;
+    }
+    .col-right-inner {
+        right: 30px;
+    }
+    .navbar-header .navbar.sticky {
+        padding: 10px 0;
+    }
+    .ply-btn {
+        top: 15%;
+        left: 25%;
+    }
+    .projetc-inner,
+    #testimonial {
+        padding: 20px;
+    }
+    .video-mockup {
+        width: 50%;
+    }
+    .hero-text {
+    padding-top: 80px
+    }
+    .subscribe-form .form-control {
+        width: 80%;
+    }
+    .list-social li {
+        margin-right: 3px;
+    }
+    .col-left-inner{
+     padding-left: 35px; 
+     padding-right: 45px;
+    }
+    .list-social a {
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .left-sidebar.sidebar-side {
+        padding-right: 0;
+    }
+    .search button {
+        padding: 10px;
+    }
+    .medium-blog .blog-summary {
+        overflow: visible;
+        margin-top: 10px;
+        padding-top: 20px;
+        clear: both;
+    }
+    .subscribe-form .form-control {
+        width: 80%;
+    }
+    .medium-blog .blog-item-img {
+        width: 100%;
+    }
+    .list-social a i {
+        line-height: 30px;
+    }
+    .blog-item {
+    margin: 0 0 35px 0;
+    padding: 0 0 35px 0;
+    }
+    
+}
+
+@media only screen and (min-width:1024px) and (max-width: 1200px) {
+    
+    .navbar-header .navbar-nav li a{
+      padding: 15px 8px !important; 
+        font-size: 14px;
+    }
+    .shapes-bg {
+        display: none;
+    }
+    
+    .col-right-inner {
+        right: 50px;
+    }
+    .col-left-inner{
+       padding-left: 30px;
+        padding-right: 80px;
+    }
+    .hero {
+        padding-bottom: 80px;
+        height: 100%;
+    }
+    .video-mockup {
+        width: 55%;
+    }
+    .subscribe-form .form-control {
+        width: 85%;
+    }
+    .left-sidebar.sidebar-side {
+        padding-right: 20px;
+    }
+    .search button {
+        padding: 10px;
+    }
+    .sidebar-post-inner img {
+        width: 60px;
+    }
+    .blog-item {
+    margin: 0 0 35px 0;
+    padding: 0 0 35px 0;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    .col-right-inner {
+        right: 0;
+    }
+    .video-mockup img {
+        width:800px;
+    }
+    .navbar-header .navbar-nav li a{
+         color: #637282;   
+    }
+}

@@ -1,0 +1,1553 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Mirrored from eventify.ng/Wajistudio by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 11:09:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eventify | One stop shop for event management">
+  <meta name="keywords" content="event, artist, cake, management, makeup, event management">
+  <title>Eventify</title>
+
+    <!--External Stylesheets css-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <!--elegant icon font -->
+    <link rel="stylesheet" href="assets/css/elegant-icons.css">
+    <!--Animate -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Owl-carousel-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="../use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <!-- venobox.css-->
+
+    <link rel="stylesheet" href="assets/css/venobox.css" type="text/css" />
+
+
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+    <!--Template Stylesheets css-->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+    <!-- Fonts styles -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+
+      <!-- TOASTR-->
+  <link rel="stylesheet" href="assets/toastr/build/toastr.min.css">
+
+
+
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="../app.eventify.ngassets/login/images/logo.png" type="image/x-icon">
+
+    <script src="assets/js/modernizr.js"></script>
+
+
+    <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+<!-- Page Preloader -->
+
+<div id="loading-page">
+    <div id="loading-center-page">
+        <div id="loading-center-absolute">
+
+            <div class="loader"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Page Preloader -->
+
+
+<!-- Page Content -->
+
+
+<div class="warpper clearfix">
+
+    <!-- Animation -->
+
+    <div class="shapes-bg"></div>
+
+    <!-- Header -->
+
+    <header class="navbar-header">
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img width="50px" height="50px" src="assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon  icon_menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a data-scroll="" class="nav-link section-scroll" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="how-it-works.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="https://app.eventify.ng/">Get started</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <!--Header--><style>
+    .navbar-header .navbar-nav li a {
+        color: black !important;
+    }
+</style>
+
+<!-- Form Modal-->
+<div id="myModal" class="modal fade demo-modal-form">
+    <div class="modal-dialog">
+        <form method="post" name="frmChange" onSubmit="return loginToFav(event)">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="mt-0 modal-title">Please Login</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label class="control-label" for="recipient">Email</label>
+                        <input class="form-control" placeholder="" name="email" id="email" type="email">
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" for="recipient">Password</label>
+                        <input class="form-control" placeholder="" name="password" id="password" type="password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Close</button>
+                    <button class="btn btn-info" type="submit">
+                        <span class="login-txt">Login</span>
+                        <span id="log-spin">
+                            <i class="fa fa-spinner fa-spin"></i>
+                        </span>
+
+                    </button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<section id="home" class="pd-tp-80 hero">
+
+
+    <!-- <div class="video-mockup">
+        <img src="https://eventify.ng/assets/images/image1.png" alt="">
+
+    </div> -->
+    <div class="">
+        <!-- COPYRIGHT TEXT -->
+
+        <div class="cover-bg" style="background: url('../app.eventify.ng/assets/img/cover/def_cover.png')">
+            <div class="send-request">
+                <button onclick="sendRequest('Wajistudio', 'f728727f2e5ad1730ab6afe148b6ffdc')"
+                    class="request-btn">
+                    <i class="fa fa-envelope"></i>
+                </button>
+                <button onclick="addFavorite('f728727f2e5ad1730ab6afe148b6ffdc')" class="request-btn">
+                    <i id="ef728727f2e5ad1730ab6afe148b6ffdc" style=                        "color: rgb(207, 197, 197)"
+                         class="fa fa-heart"></i>
+                    <i id="sf728727f2e5ad1730ab6afe148b6ffdc" class="fa fa-spinner fa-spin faloader"></i>
+                </button>
+            </div>
+            <div></div>
+
+        </div>
+
+        <!-- COPYRIGHT TEXT -->
+
+
+    </div>
+
+    <!--container-->
+
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="row vendor-info">
+
+                <div class="col-md-3">
+                    <div class="vendor-img-sect">
+                        <img class="vendor-img" src="../app.eventify.ng/assets/img/vendor_pfpic/w.gif" />
+                        <h5 class="vendor-name">
+                            Waji Studio                         </h5>
+                        <p>
+                            <span class="fa fa-user-circle vendor-icon">
+                                <span>
+                                    Photography and Videography                                </span>
+                            </span>
+                            <span class="fa fa-map-marker-alt vendor-icon">
+                                <span>
+                                    34, Adeyeri crescent oyemeku bus stop ifako ijaiye Lagos state                                </span>
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <div class="vendor-bio">
+
+                        <h6>Brief info</h6>
+
+                        <p>
+                            Outdoor photography
+Event photography                        </p>
+
+
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="gallery-section">
+                        <h5>Gallery</h5>
+                        <div class="row vendor-side">
+                            <!-- <div class="col-md-6 vendor-gal">
+                                <img class="vendor-gallery" src="../../../assets/images/blog/blog2.jpg" />
+                            </div>
+                            <div class="col-md-6 vendor-gal">
+                                <img class="vendor-gallery" src="../../../assets/images/blog/blog2.jpg" />
+                            </div> -->
+                            <div class="col-md-12 vendor-gal">
+                                <p style="text-align: center">No images</p>
+                            </div>
+
+                        </div>
+                        <div class="share">
+                            <ul class="list-social list-inline">
+                                <li>
+                                    <a href="#" onClick="window.open('https://www.facebook.com/sharer.php?t=Hire%20Waji%20Studio%20%20-%20Outdoor%20photographyEvent%20photography%20&amp;u=https://eventify.ng/Wajistudio','pagename','resizable,height=500,width=670'); return false;"
+                                        class="btn btn-circle btn-facebook">
+                                        <i class="social_facebook "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" onClick="window.open('https://twitter.com/intent/tweet?text=%20Hire%20Waji%20Studio%20%20-%20Outdoor%20photographyEvent%20photography%20https://eventify.ng/Wajistudio','pagename','resizable,height=500,width=670'); return false;"
+                                        class="btn btn-circle btn-twitter">
+                                        <i class="social_twitter "></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="btn btn-circle btn-instgram">
+                                        <i class="social_instagram"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="col-md-1"></div>
+
+    </div>
+    <!--container-->
+
+</section>
+
+<section class="related-vendor">
+    <div class="row featured-section mg-bt-60 mg-tp-60  pd-tp-80 pd-bt-80">
+
+        <div class="col-md-1"></div>
+        <div>
+            <h5>Related Vendors</h5>
+        </div>
+        <div id="carouselExample" class="col-md-10 carousel slide text-center" data-ride="carousel" data-interval="9000">
+            <div class="carousel-inner row w-100 mx-auto" role="listbox">
+
+                                <div class="carousel-item col-md-3 featured-vendor
+                                     active ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Unique ushering agency                                         </b>
+                                        <p>
+                                            <small>
+                                                Venue & Decorations                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    2, anibaba Street ketu, lagos                                                 </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Unique123.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Tyra Cakes                                        </b>
+                                        <p>
+                                            <small>
+                                                Cake & Pastries                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Gbadegbo Omilani Surulere Lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Tyra_cakes.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Unique ushering agency                                         </b>
+                                        <p>
+                                            <small>
+                                                Food & Drinks                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    2, anibaba Street ketu, lagos                                                 </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Unique123.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            FABZ_MEDIA                                        </b>
+                                        <p>
+                                            <small>
+                                                Photography and Videography                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Ile Oodua Arts & Pearl's, Enuwa, Ile-Ife                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="fabz.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Swiftthrill Events & Décor                                        </b>
+                                        <p>
+                                            <small>
+                                                Venue & Decorations                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    10, Araba Street Ilupeju Lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Swiftthrillevents.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Lozano bakery and Art                                        </b>
+                                        <p>
+                                            <small>
+                                                Cake & Pastries                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Parakin, Ile-Ife                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Asaph.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Ellay's confectionery                                         </b>
+                                        <p>
+                                            <small>
+                                                Cake & Pastries                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    OAU, ile-ife ,osun state                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Lauraade.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            PerfectCube Cleaning Services                                        </b>
+                                        <p>
+                                            <small>
+                                                Make Over & Accessories                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    10, Samuel Awoniyi Street, Opebi Estate                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Worldsbest89.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Bim-Dam Events                                        </b>
+                                        <p>
+                                            <small>
+                                                Cake & Pastries                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Shop 454, Iponri Shopping Centre,Iponri, Surulere, Lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Boluwatife.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            DJ PHIL                                        </b>
+                                        <p>
+                                            <small>
+                                                Venue & Decorations                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    PLOT 6A BLCK 110 LEKKI 1                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="philipeze9.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Waji Studio                                         </b>
+                                        <p>
+                                            <small>
+                                                Photography and Videography                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    34, Adeyeri crescent oyemeku bus stop ifako ijaiye Lagos state                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Wajistudio.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Tyra Cakes                                        </b>
+                                        <p>
+                                            <small>
+                                                Cake & Pastries                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    surulere lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="olaitantosin.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Funke Makeover                                        </b>
+                                        <p>
+                                            <small>
+                                                Souvenirs                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Palm grove                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Funkified.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Amazing ushers                                        </b>
+                                        <p>
+                                            <small>
+                                                Food & Drinks                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="Amazingushers.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Jossy Hire                                        </b>
+                                        <p>
+                                            <small>
+                                                Venue & Decorations                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    Yaba Lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="jossy.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            hirahsmakeover                                        </b>
+                                        <p>
+                                            <small>
+                                                Souvenirs                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    No. 14 edun street alegbo,effurun warri delta state                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="hirahs_makeover.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Kanute integrated concepts                                        </b>
+                                        <p>
+                                            <small>
+                                                Hiremen and Event Planners                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    389 old ojo road, abule-ado, satellite town, lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="kanute.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Kanute integrated concepts                                        </b>
+                                        <p>
+                                            <small>
+                                                DJs                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    389 old ojo road, abule-ado, satellite town, lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="kanute.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Kanute integrated concepts                                        </b>
+                                        <p>
+                                            <small>
+                                                Ushers                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    389 old ojo road, abule-ado, satellite town, lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="kanute.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Kanute integrated concepts                                        </b>
+                                        <p>
+                                            <small>
+                                                Event Planners                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    389 old ojo road, abule-ado, satellite town, lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="kanute.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                                <div class="carousel-item col-md-3 featured-vendor
+                                    ">
+                    <div class="panel panel-default">
+                        <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                                <img class="img-fluid featured-cover mx-auto d-block" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <img class="featured-img" src="assets/images/category/cake-2.jpg"
+                                    alt="slide 2">
+                                <div class="testimonial-card">
+                                    <div class="testimonial-card">
+                                        <b>
+                                            Kanute integrated concepts                                        </b>
+                                        <p>
+                                            <small>
+                                                Bride's maid                                            </small>
+                                            <br />
+                                            <small style="font-size:8px">
+                                                <i class="fas fa-star" style="color: #fa6262">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                </i>
+                                                <i class="fas fa-star" style="color: #797878">
+                                                    <i class="fas fa-star" style="color: #797878">
+                                                    </i>
+                                                </i>
+                                            </small>
+                                        </p>
+                                        <p>
+                                            <small>
+                                                <b>
+                                                    389 old ojo road, abule-ado, satellite town, lagos                                                </b>
+                                            </small>
+                                        </p>
+
+                                        <a href="kanute.html" class="view-profile">
+                                            View Profile </a>
+                                    </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <div class="col-md-1"></div>
+        <div style="margin-left:40%" class="filter-tab test  p-tp-50 text-center">
+
+            <a href="index.html" class="all-vendor-btn">
+                <b>See all Vendors</b>
+            </a>
+        </div>
+    </div>
+</section>
+
+<script>
+    // $(".log-spin").hide();
+    document.getElementById('log-spin').style.display = "none"
+
+    document.getElementsByClassName('faloader')[0].style.display = "none"
+
+    const loginToFav = e => {
+
+        e.preventDefault();
+
+        email = document.frmChange.email;
+
+        password = document.frmChange.password;
+
+
+
+
+        if (!password.value) {
+
+            password.focus();
+
+        }
+
+        if (!email.value) {
+
+            email.focus();
+
+        }
+
+
+        if (email.value && password.value) {
+
+
+            $.ajax({
+
+                url: "login",
+
+                type: "POST",
+
+                data: {
+
+                    email: email.value,
+
+                    password: password.value
+
+                },
+
+                dataType: "JSON",
+
+                cache: false,
+
+                beforeSend: function () {
+
+
+
+
+                    $("#log-spin").show();
+
+                    $(".login-txt").hide();
+
+                    $(".disable-btn").attr("disabled", "disabled");
+
+                },
+
+                success: function (jsonStr) {
+
+                    $(".disable-btn").removeAttr("disabled", "disabled");
+
+                    $("#log-spin").hide();
+
+                    $(".login-txt").show();
+
+
+
+
+
+                    if (jsonStr.status == "error") {
+
+                        if (jsonStr.code == 0) {
+
+                            toastr.warning("Sorry fields cannot be null");
+
+                        } else if (jsonStr.code == 1) {
+
+                            toastr.warning("Sorry all fields must be filled");
+
+                        } else if (jsonStr.code == 2) {
+
+                            toastr.warning("Sorry email already exist");
+
+                            email.focus();
+
+                        } else {
+
+                            toastr.error("Error in operation, Please try again");
+
+                        }
+
+                    }
+
+                    if (jsonStr.status == "success") {
+                        console.log(jsonStr.code)
+
+
+                        if (jsonStr.code == 0) {
+
+                            toastr.success("Login successful");
+                            $('#myModal').modal('hide');
+                            return true;
+
+
+
+                        } else {
+                            toastr.warning("Invalid login details, Please try again");
+                        }
+
+                    }
+
+                    // $("#result").text(JSON.stringify(jsonStr));
+
+                }
+
+            });
+
+        }
+
+    }
+</script>
+<!--Footer-->
+
+<footer class="footer">
+
+    <div class="footer-warpper">
+
+        <div class="footer-top">
+            <div class="container">
+
+
+                <div class="footer-top  clearfix">
+
+
+                    <div class="footer-bottom-content clearfix">
+
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3">
+
+
+
+                                <div class="logo-footer">
+                                    <img width="60px" height="50px" src="assets/images/logo.png" alt="">
+
+                                </div>
+                                <div class="text-footer">
+                                    <p>
+                                        Eventify, your one stop shop for event management.
+                                    </p>
+                                </div>
+
+
+                                <ul class="list-social list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/Eventify-Nigeria-1852403311520424/?ti=as" class="btn btn-circle btn-facebook">
+                                            <i class="social_facebook "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/EventifyNG" class="btn btn-circle btn-twitter">
+                                            <i class="social_twitter "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/eventify.ng/" class="btn btn-circle btn-instgram">
+                                            <i class="social_instagram"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                            <!-- <div class="col-lg-3 col-md-2">
+
+                        </div> -->
+
+
+                            <div class="col-lg-5 col-md-6">
+
+                                <h5>Contact </h5>
+
+                                <ul class="list-contact">
+
+                                    <!-- <li>
+                                        2 Palm Groove Yaba
+                                    </li> -->
+                                    <!-- <li>+369 258 147 258</li> -->
+
+                                    <li>contact@eventify.ng</li>
+
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-lg-3 col-md-3">
+
+                                <h5>Subscribe to our newsletter</h5>
+
+                                <!-- Newsletter -->
+                                <div class="newsletter-block">
+
+
+                                    <div class="subscribe-form">
+
+                                        <form action="#" method="get" class="subscribe-mail">
+                                            <div class="form-group ">
+                                                <input type="email" class="form-control email-input" placeholder="Enter your email" style="color:rgba(117, 111, 111, 0.89); border:1px solid #eee">
+                                                <button type="submit" class="btn btn-subscribe bg-color-1">Subscribe</button>
+                                            </div>
+                                            <p class="error-message"></p>
+                                            <p class="sucess-message"></p>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Newsletter -->
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <!-- COPYRIGHT TEXT -->
+
+            <div class="copyright">
+                <p>
+                    <script>document.write(new Date().getFullYear())</script> © Copyright Eventify All rights Reserved.</p>
+            </div>
+            <!-- COPYRIGHT TEXT -->
+
+        </div>
+    </div>
+
+</footer>
+
+<!--Footer -->
+
+
+<!-- jQuery -->
+<script src="assets/js/jquery-1.12.4.min.js"></script>
+
+<!-- Popper Plugins -->
+<script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+<!-- Bootstrap Plugins -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- Template Plugins -->
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/magnific-popup.min.js"></script>
+<script src="assets/js/jquery.scrollUp.min.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="assets/js/venobox.min.js"></script>
+<!-- Main js -->
+<script src="assets/js/main.js"></script>
+<script src="assets/js/shapes.js"></script>
+
+<!-- Toastr -->
+<script src="assets/toastr/build/toastr.min.js"></script>
+
+
+<script src="../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+
+</body>
+
+
+<!-- Mirrored from eventify.ng/Wajistudio by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 11:09:26 GMT -->
+</html>

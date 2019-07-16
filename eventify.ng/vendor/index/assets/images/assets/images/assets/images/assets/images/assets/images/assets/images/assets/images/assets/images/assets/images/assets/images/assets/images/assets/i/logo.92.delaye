@@ -1,0 +1,742 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<!-- Mirrored from eventify.ng/vendor/index/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/logo.png by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 11:12:56 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <!--Metas-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eventify | One stop shop for event management">
+  <meta name="keywords" content="event, artist, cake, management, makeup, event management">
+  <title>Eventify</title>
+
+    <!--External Stylesheets css-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/bootstrap.min.css">
+
+    <!--elegant icon font -->
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/elegant-icons.css">
+    <!--Animate -->
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/animate.css">
+
+    <!-- Owl-carousel-->
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/carousel.css">
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../../use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+    <!-- venobox.css-->
+
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/venobox.css" type="text/css" />
+
+
+    <!-- Magnific Popup-->
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/magnific-popup.css">
+
+    <!--Template Stylesheets css-->
+
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/style.css">
+    <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/css/responsive.css">
+
+
+    <!-- Fonts styles -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800" rel="stylesheet">
+
+      <!-- TOASTR-->
+  <link rel="stylesheet" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/toastr/build/toastr.min.css">
+
+
+
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/images/logo.png" type="image/x-icon">
+    <link rel="icon" href="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ngassets/login/images/logo.png" type="image/x-icon">
+
+    <script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/modernizr.js"></script>
+
+
+    <!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.min.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+
+<!-- Page Preloader -->
+
+<div id="loading-page">
+    <div id="loading-center-page">
+        <div id="loading-center-absolute">
+
+            <div class="loader"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Page Preloader -->
+
+
+<!-- Page Content -->
+
+
+<div class="warpper clearfix">
+
+    <!-- Animation -->
+
+    <div class="shapes-bg"></div>
+
+    <!-- Header -->
+
+    <header class="navbar-header">
+
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="../../../../../../../../../../../../../../../../../../../../../../../../../../index.html">
+                    <img width="50px" height="50px" src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/images/logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon  icon_menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a data-scroll="" class="nav-link section-scroll" href="../../../../../../../../../../../../../../../../../../../../../../../../../../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="../../../../../../../../../../../../../../../../../../../../../../../../../../about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="../../../../../../../../../../../../../../../../../../../../../../../../../../how-it-works.html">How it works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="../../../../../../../../../../../../../../../../../../../../../../../../../../blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll="" class="nav-link section-scroll" href="https://app.eventify.ng/">Get started</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+    <!--Header--><style>
+    .navbar-header .navbar-nav li a {
+        color: rgba(85, 85, 85, 0.781) !important;
+    }
+
+</style>
+<section style="background: rgb(250, 250, 250)" id="services" class="pd-tp-80 pd-bt-40 mg-bt-60">
+
+    <div class="row-centered about-section">
+        <div class="row">
+            <div id="filter-panel" class="collapse filter-panel">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="filter-col" style="margin-right:0;" for="pref-perpage">Rows per page:</label>
+                                <select id="pref-perpage" class="form-control">
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option selected="selected" value="10">10</option>
+                                    <option value="15">15</option>
+                                    <option value="20">20</option>
+                                    <option value="30">30</option>
+                                    <option value="40">40</option>
+                                    <option value="50">50</option>
+                                    <option value="100">100</option>
+                                    <option value="200">200</option>
+                                    <option value="300">300</option>
+                                    <option value="400">400</option>
+                                    <option value="500">500</option>
+                                    <option value="1000">1000</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label class="filter-col" style="margin-right:0;" for="pref-orderby">Order by:</label>
+                                <select id="pref-orderby" class="form-control">
+                                    <option>Descendent</option>
+                                </select>
+                            </div> <!-- form group [order by] -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <span class="btn btn-sm" data-toggle="collapse" data-target="#filter-panel">
+                <span class="fa fa-filter"></span> Filter
+            </span>
+        </div>
+        <div class="col-centered col-lg-7">
+
+            <!-- <h2 class="title-h2">Our Services </h2> -->
+
+            <p class="font-p mg-tp-30 mg-bt-60">
+                <div class="about-content">
+                    <h5>See our collection of vendors</h5>
+
+                </div>
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+    <!--container-->
+
+    <div class="container">
+
+        <div class="row">
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/u.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Unique ushering agency                                 </b>
+                                <p>
+                                    <small>
+                                        Venue & Decorations                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ketu Lagos                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Unique123.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/t.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Tyra Cakes                                </b>
+                                <p>
+                                    <small>
+                                        Cake & Pastries                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Surulere Lagos                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Tyra_cakes.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/u.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Unique ushering agency                                 </b>
+                                <p>
+                                    <small>
+                                        Food & Drinks                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ketu Lagos                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Unique123.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/f.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    FABZ_MEDIA                                </b>
+                                <p>
+                                    <small>
+                                        Photography and Videography                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ile-Ife                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../fabz.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/s.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Swiftthrill Events & Décor                                </b>
+                                <p>
+                                    <small>
+                                        Venue & Decorations                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ilupeju                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Swiftthrillevents.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/l.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Lozano bakery and Art                                </b>
+                                <p>
+                                    <small>
+                                        Cake & Pastries                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ife central                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Asaph.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/e.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    Ellay's confectionery                                 </b>
+                                <p>
+                                    <small>
+                                        Cake & Pastries                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ile-ife                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Lauraade.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+                        <div class="col-lg-3 col-md-3  featured-vendor" style="margin-bottom:10px">
+                <div class=" panel panel-default">
+                    <div class="panel-thumbnail">
+                        <div href="#" title="image 3" class="thumb" style="text-align:center">
+                            <img class="img-fluid featured-cover mx-auto d-block" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/cover/def_cover.png"
+                                alt="slide 2">
+                            <img class="featured-img" src="../../../../../../../../../../../../../../../../../../../../../../../../../../../app.eventify.ng/assets/img/vendor_pfpic/p.gif"
+                                alt="slide 2">
+                            <div class="testimonial-card">
+                                <b>
+                                    PerfectCube Cleaning Services                                </b>
+                                <p>
+                                    <small>
+                                        Make Over & Accessories                                    </small>
+                                    <br />
+                                    <small style="font-size:8px">
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                        </i>
+                                        <i class="fas fa-star" style="color: #797878">
+                                            <i class="fas fa-star" style="color: #797878">
+                                            </i>
+                                        </i>
+                                    </small>
+                                </p>
+                                <p>
+                                    <small>
+                                        <b>
+                                            Ikeja                                        </b>
+                                    </small>
+                                </p>
+
+                                <a href="../../../../../../../../../../../../../../../../../../../../../../../../../../Worldsbest89.html" class="view-profile">
+                                    View Profile </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="row" style="text-align:center">
+        <div class="col-md-12 pagination-links">
+            <strong>1</strong><a href="../../../../../../../../../../../../../../../../../../../../../../../../8.html" class="pagination-link" data-ci-pagination-page="2">2</a><a href="../../../../../../../../../../../../../../../../../../../../../../../../16.html" class="pagination-link" data-ci-pagination-page="3">3</a><a href="../../../../../../../../../../../../../../../../../../../../../../../../8.html" class="pagination-link" data-ci-pagination-page="2" rel="next">&gt;</a>        </div>
+    </div>
+    <!--container-->
+
+</section>
+<!--Footer-->
+
+<footer class="footer">
+
+    <div class="footer-warpper">
+
+        <div class="footer-top">
+            <div class="container">
+
+
+                <div class="footer-top  clearfix">
+
+
+                    <div class="footer-bottom-content clearfix">
+
+                        <div class="row">
+
+                            <div class="col-lg-3 col-md-3">
+
+
+
+                                <div class="logo-footer">
+                                    <img width="60px" height="50px" src="logo.93.delaye" alt="">
+
+                                </div>
+                                <div class="text-footer">
+                                    <p>
+                                        Eventify, your one stop shop for event management.
+                                    </p>
+                                </div>
+
+
+                                <ul class="list-social list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/Eventify-Nigeria-1852403311520424/?ti=as" class="btn btn-circle btn-facebook">
+                                            <i class="social_facebook "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/EventifyNG" class="btn btn-circle btn-twitter">
+                                            <i class="social_twitter "></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/eventify.ng/" class="btn btn-circle btn-instgram">
+                                            <i class="social_instagram"></i>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+
+                            <!-- <div class="col-lg-3 col-md-2">
+
+                        </div> -->
+
+
+                            <div class="col-lg-5 col-md-6">
+
+                                <h5>Contact </h5>
+
+                                <ul class="list-contact">
+
+                                    <!-- <li>
+                                        2 Palm Groove Yaba
+                                    </li> -->
+                                    <!-- <li>+369 258 147 258</li> -->
+
+                                    <li>contact@eventify.ng</li>
+
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-lg-3 col-md-3">
+
+                                <h5>Subscribe to our newsletter</h5>
+
+                                <!-- Newsletter -->
+                                <div class="newsletter-block">
+
+
+                                    <div class="subscribe-form">
+
+                                        <form action="#" method="get" class="subscribe-mail">
+                                            <div class="form-group ">
+                                                <input type="email" class="form-control email-input" placeholder="Enter your email" style="color:rgba(117, 111, 111, 0.89); border:1px solid #eee">
+                                                <button type="submit" class="btn btn-subscribe bg-color-1">Subscribe</button>
+                                            </div>
+                                            <p class="error-message"></p>
+                                            <p class="sucess-message"></p>
+
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- Newsletter -->
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <!-- COPYRIGHT TEXT -->
+
+            <div class="copyright">
+                <p>
+                    <script>document.write(new Date().getFullYear())</script> © Copyright Eventify All rights Reserved.</p>
+            </div>
+            <!-- COPYRIGHT TEXT -->
+
+        </div>
+    </div>
+
+</footer>
+
+<!--Footer -->
+
+
+<!-- jQuery -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/jquery-1.12.4.min.js"></script>
+
+<!-- Popper Plugins -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../../cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+<!-- Bootstrap Plugins -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/bootstrap.min.js"></script>
+
+<!-- Template Plugins -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/jquery.easing.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/wow.min.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/owl.carousel.min.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/magnific-popup.min.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/jquery.scrollUp.min.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/jquery.ajaxchimp.min.js"></script>
+
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/venobox.min.js"></script>
+<!-- Main js -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/main.js"></script>
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/js/shapes.js"></script>
+
+<!-- Toastr -->
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../assets/toastr/build/toastr.min.js"></script>
+
+
+<script src="../../../../../../../../../../../../../../../../../../../../../../../../../../../cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.js"></script>
+
+</body>
+
+
+<!-- Mirrored from eventify.ng/vendor/index/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/assets/images/logo.png by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Jul 2019 11:12:56 GMT -->
+</html>
